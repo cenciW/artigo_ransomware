@@ -1,0 +1,80 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Modelo desenvolvido por Alunos do IFSP - PEP para o CONICT 2020.
+% Autores: Christopher Alves de Oliveira, Inácio Ribeiro, Paulo Ricardo Servilha Sparapan.
+% Professores: Alexandre Ataide Carniato e Diego Nunes da Silva
+% Data: 18/08/2020.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Atualizado para o CONICT 2021 - Cubatão pelo professor Glauber Renato Colnago 
+% Data: 7/6/2021
+% Atualizado para o CONICT 2022 - São Paulo pelo professor Francisco Yastami Nakamoto 
+% Data: 24/06/2022
+% Atualizado para o CONICT 2023 - Capivari pelo professor Thiago Pedro Donadon Homem
+% Data: 24/05/2023
+% Atualizado para o CONICT 2024 - Barretos pelo professor Rodrigo Yamakami Camilo
+% Data: 09/05/2024
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,12pt]{article} %Selecionando a classe que gera artigos.
+
+\input{preambulo} %Pacotes principais
+
+\fancypagestyle{empty}{%
+\fancyhf{}% clear all header and footer fields
+% \fancyfoot[L]{15º CONICT 2024} % except the center
+\fancyfoot[C]{\thepage} % except the center
+% \fancyfoot[R]{ISSN: 2178-9959} % except the center
+\renewcommand{\headrulewidth}{0pt}%
+\renewcommand{\footrulewidth}{0pt}%
+}
+\pagestyle{empty}
+
+
+
+\begin{document} %Begin Inicia o Documento
+
+
+
+\input{cabecalho} %Alterar Título, autores, e apagar tabela !
+
+%----------------------------------------TEXTOS-------------------------------------------------%
+
+
+\vspace{0.5cm}
+\noindent\textbf{RESUMO}: O propósito destas instruções é orientar aos autor(es) quanto à formatação dos resumos expandidos a serem submetidos ao Congresso de Inovação, Ciência e Tecnologia do Instituto Federal de Educação, Ciência e Tecnologia de São Paulo. Os documentos devem ser redigidos de acordo com as normas para elaboração do resumo expandido. O arquivo de submissão deverá estar desbloqueado no formato \textit{portable document format} (pdf) compatível com o Adobe Acrobat Reader™. O texto deve iniciar na mesma linha do item, ser claro, sucinto e, obrigatoriamente, explicar o(s) objetivo(s) pretendido(s), procurando justificar sua importância (sem incluir referências bibliográficas), os principais procedimentos adotados, os resultados mais expressivos e conclusões, contendo no máximo 200 palavras. Não deverá conter fórmulas e citações e referências bibliográficas. O resumo expandido apresentado no evento será publicado nos Anais (\textit{ISSN}: 2178-9959). O texto com as instruções e em parênteses devem ser removidos do documento final.
+
+\vspace{0.5cm}
+\noindent\textbf{PALAVRAS-CHAVE}: máximo de seis, separadas por ponto e vírgula (;), procurando não repetir palavras do título, escritas em letras minúsculas..
+
+\vspace{0.5cm}
+ \begin{center}
+ \textbf{TÍTULO EM INGLÊS}
+ \end{center}
+
+\noindent\textbf{ABSTRACT}: Tradução do resumo para a língua inglesa.
+
+\vspace{0.5cm}
+\noindent\textbf{KEYWORDS}: Tradução das palavras-chave para a língua inglesa.
+
+\input{introducao.tex} %Introdução
+
+\input{materiais_e_metodos.tex} %Materiais e Métodos
+
+\input{resultados_e_discussao.tex} %Resultados e Discussão
+
+\input{conclusao_contribuicao_agradecimentos.tex} %Conclusão, Contribuição e Agradecimentos
+
+
+%Referências Bibliográficas
+%\textbf{REFERÊNCIAS}
+
+\bibliography{bibliografia.bib}
+%\printbibliography[title={REFERÊNCIAS}]
+%\printbibliography{bibliografia}
+
+
+
+\end{document}
