@@ -1,0 +1,34 @@
+# Arquivos temporários e auxiliares do LaTeX
+*.aux
+*.log
+*.toc
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.lof
+*.lot
+*.lol
+*.nav
+*.snm
+
+
+
+# Arquivos de backup do LaTeX
+*~
+*.bak
+
+# Diretórios temporários
+_auto/
+*.dvi
+
+# IDEs e editores
+.vscode/
+*.swp
+*.swo
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db

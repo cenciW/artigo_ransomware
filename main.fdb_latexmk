@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1748000855.70167 "main.aux" "main.bbl" "main" 1748000857.69961 0
+["bibtex main"] 1748000855.70167 "main.aux" "main.bbl" "main" 1748001021.73208 0
   "./bibliografia.bib" 1715295856 1594 189b4aa07d017602a11ed9492f31c190 ""
   "C:/Users/ze/AppData/Local/Programs/MiKTeX/bibtex/bib/abntex2/abntex2-options.bib" 1543103229 5396 4eb260dac60f150ae608d45252853090 ""
   "C:/Users/ze/AppData/Local/Programs/MiKTeX/bibtex/bst/abntex2/abntex2-alf.bst" 1543103230 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "main.aux" 1748000856 1820 491aede12e5180b238cbc79248dbedef "pdflatex"
+  "main.aux" 1748001020 1820 491aede12e5180b238cbc79248dbedef "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1748000855.97976 "c:/Users/ze/Desktop/FACULDADe/NONO SEM/Criptografia 8/artigo_ransomware/main.tex" "main.pdf" "main" 1748000857.70035 0
+["pdflatex"] 1748001019.9776 "c:/Users/ze/Desktop/FACULDADe/NONO SEM/Criptografia 8/artigo_ransomware/main.tex" "main.pdf" "main" 1748001021.73282 0
   "C:/Users/ze/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1745802867 81202 fdd17cb966046b05ecb716ff6639defb ""
   "C:/Users/ze/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1723590891 31952 b74c81a89b11befad5a626f288d0b922 ""
   "C:/Users/ze/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1747158871 40136 bb59a5497d6f903df5850d3327cc0614 ""
@@ -118,7 +118,7 @@
   "C:/Users/ze/AppData/Local/Programs/MiKTeX/tex/latex/tools/xspace.sty" 1730400552 4545 e3f4de576c914e2000f07f69a891c071 ""
   "C:/Users/ze/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/ze/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/ze/Desktop/FACULDADe/NONO SEM/Criptografia 8/artigo_ransomware/main.tex" 1748000852 3597 780a6fd777d3ac8429dcffdb440c29b2 ""
+  "c:/Users/ze/Desktop/FACULDADe/NONO SEM/Criptografia 8/artigo_ransomware/main.tex" 1748001018 2619 1fbba09d0b5533f047bed36bec376a59 ""
   "cabecalho.tex" 1715295856 2986 3a408ed90f3e5a7c51291b5a4e4fb00b ""
   "conclusao_contribuicao_agradecimentos.tex" 1748000829 1131 d56b9a3abdb7ac16e6c3bab704e4a06a ""
   "grafico_1.png" 1715295856 172881 4b9e35838a8c1373f3989d61dc8eb6ac ""
@@ -126,9 +126,9 @@
   "introducao.tex" 1748000719 529 abc92739f7e4263ad6fc313a2bafa426 ""
   "logo_conict.png" 1715295856 61159 469d7179cd50e996019632497a0191b5 ""
   "logo_reitoria.png" 1715295856 14370 f653ad2e3aec11a3dc28f3a0ef84178a ""
-  "main.aux" 1748000856 1820 491aede12e5180b238cbc79248dbedef "pdflatex"
+  "main.aux" 1748001020 1820 491aede12e5180b238cbc79248dbedef "pdflatex"
   "main.bbl" 1748000855 1501 86745073237596b86638f3f57bb17556 "bibtex main"
-  "main.tex" 1748000852 3597 780a6fd777d3ac8429dcffdb440c29b2 ""
+  "main.tex" 1748001018 2619 1fbba09d0b5533f047bed36bec376a59 ""
   "materiais_e_metodos.tex" 1748000756 378 6f674c84edaf5d45b5a74a2e383e335c ""
   "preambulo.tex" 1715295856 1617 f5421a0941cc375ea62777ec6abffafc ""
   "resultados_e_discussao.tex" 1748000776 2370 9f472c89f2b85b24fe3a9486ee74ba5e ""
