@@ -1,0 +1,20 @@
+
+\begin{table}[H] % Alterado para [H] para posicionamento "aqui"
+    \centering
+    \small
+    \caption{Evolução Histórica do Ransomware}
+    \label{tab:evolucao_historica}
+    \sloppy % Permite quebras de linha mais flexíveis para evitar underfull hbox
+    \begin{tabularx}{\textwidth}{|l|p{3cm}|p{5cm}|p{5cm}|}
+        \hline
+        \textbf{Período} & \textbf{Marco Principal} & \textbf{Características Notáveis} & \textbf{Impacto Significativo} \\ \hline
+        1989 & AIDS Trojan (PC Cyborg) & Distribuição via disquetes, ocultação de diretórios, nomes de arquivos criptografados (simples), resgate por correio postal. & Primeiro ransomware documentado; catalisador para leis de crimes cibernéticos. \cite{CyberMaxxRansomwareHistory, Muniandy2024Ransomware, WatchGuardAIDSTrojan} \\ \hline
+        Meados 2000s & Surgimento de \textit{Lockers} e \textit{Scareware} & Bloqueio de tela/sistema; falsos alertas de vírus; criptografia simétrica fraca (e.g., GPCode). & Aumento gradual da atividade; experimentação com modelos de extorsão. \cite{Tanni2022RedAlert, MasterDCRansomwareHowItWorks, Robb2024RansomwareHistory} \\ \hline
+        2013 & CryptoLocker & Criptografia assimétrica forte (RSA); uso de Bitcoin para pagamento; disseminação via \textit{phishing}. & Revolucionou o ransomware, tornando a recuperação quase impossível sem a chave; alta lucratividade. \cite{CyberMaxxRansomwareHistory, Muniandy2024Ransomware, Robb2024RansomwareHistory} \\ \hline
+        Fim dos 2010s & Ascensão do \textit{Ransomware-as-a-Service} (RaaS) & Plataformas oferecem ransomware a afiliados; divisão de lucros; proliferação de ataques. & Redução da barreira de entrada para cibercriminosos; aumento massivo no volume de ataques. \cite{CyberMaxxRansomwareHistory, Robb2024RansomwareHistory} \\ \hline
+        2017 & WannaCry & Exploração da vulnerabilidade EternalBlue (SMB); propagação tipo \textit{worm}; impacto global em larga escala. & Demonstrou a capacidade de interrupção massiva e a vulnerabilidade de sistemas não corrigidos. \cite{CyberMaxxRansomwareHistory, WikipediaWannaCry} \\ \hline
+        2020 - Presente & Predominância da Dupla e Tripla Extorsão & Exfiltração de dados antes da criptografia; ameaça de vazamento público; ataques DDoS adicionais. & Aumenta a pressão sobre as vítimas; \textit{backups} sozinhos não são suficientes. \cite{CyberMaxxRansomwareHistory, Robb2024RansomwareHistory, ThreatDownALPHVBlackCat, AkamaiBlackCatRansomware} \\ \hline
+        2021 - Presente & Foco em Alvos de Alto Valor e Infraestruturas Críticas & Ataques direcionados a grandes corporações, hospitais, governos; demandas de resgate milionárias. & Interrupções severas em serviços essenciais; aumento do impacto econômico e social. \cite{CyberMaxxRansomwareHistory, Robb2024RansomwareHistory} \\ \hline
+        2023 - Presente & Uso Crescente de IA e Exploração de Novas Vulnerabilidades & Desenvolvimento de ransomware assistido por IA; exploração de vulnerabilidades em dispositivos IoT e \textit{firmware}. & Potencial para ataques mais sofisticados, evasivos e automatizados. \cite{ENISA_ETL_2023, KasperskyRansomwareReport2025} \\ \hline
+    \end{tabularx}
+\end{table}
