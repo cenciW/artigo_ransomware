@@ -1,8 +1,0 @@
-{
-    "[latex]": {
-        "editor.rulers": [1], // A Rewrap usará esta régua para arquivos.tex
-        // Alternativamente:
-        // "rewrap.wrappingColumn": 80,
-        "rewrap.autoWrap.enabled": true // Ativa a quebra automática ao digitar (discutido abaixo)
-    }
-}
